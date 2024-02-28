@@ -1,0 +1,7 @@
+emailCsv,passwordCsv,messageErrCsv
+ ,123456,Email address is required
+invalid@mail,123456,Email address is invalid
+invalid.mail,123456,Email address is invalid
+valid@mail.com, ,Password is required
+valid@mail.com,12345,Password should be between 6 and 30 characters
+valid@mail.com,1234567891234567891234567891234,Password should be between 6 and 30 characters

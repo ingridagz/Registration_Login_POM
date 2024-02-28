@@ -1,0 +1,12 @@
+emailCsv,nameCsv,passwordCsv,passwordConfirmCsv,messageErrCsv
+invalid@mail,ValidName,ValidPassword123,ValidPassword123,Email address is invalid
+invalid.mail,ValidName,ValidPassword123,ValidPassword123,Email address is invalid
+valid@mail.com,A,ValidPassword123,ValidPassword123,User name should be between 4 and 30 characters
+valid@mail.com,Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,ValidPassword123,ValidPassword123,User name should be between 4 and 30 characters
+valid@mail.com,Aaaaaaaaaaaaa,ValidPassword123,ValidPassword123,First letter should by capitalized
+valid@mail.com,ValidName,1,1,Password should be between 6 and 30 characters
+valid@mail.com,ValidName,1234567891234567891234567891234,1234567891234567891234567891234,Password should be between 6 and 30 characters
+valid@mail.com,ValidName,ValidPassword123,InvalidPassword123,Passwords don't match!
+valid@mail.com, ,ValidPassword123,ValidPassword123,User name is required
+valid@mail.com,1111,ValidPassword123,ValidPassword123,User name not number
+valid@mail.com,****,ValidPassword123,ValidPassword123,User name not symbol

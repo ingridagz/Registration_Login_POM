@@ -1,0 +1,4 @@
+emailCsv,messageErrCsv
+ ,Email address is required
+invalid@mail,Email address is invalid
+invalid.mail,Email address is invalid
